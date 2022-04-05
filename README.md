@@ -1,5 +1,5 @@
 # PathonetPytorch
-# Rewritting of Pathonet in Pytorch
+# Rewritting of Pathonet https://github.com/SHIDCenter/PathoNet in Pytorch
 ### Prerequisites
 * Python 3.7+
 * Pytorch 1.0+

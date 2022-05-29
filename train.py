@@ -60,7 +60,8 @@ ne = 30
 nsc = 10
 gamma = 0.1
 wd=1e-9
-net=Unet()
+#net=Unet()
+net=PathoNet()
 net = net.to(device)
 criterion = nn.MSELoss(reduction='mean')
 optimizer = optim.Adam(net.parameters(), lr=lr,weight_decay=wd)

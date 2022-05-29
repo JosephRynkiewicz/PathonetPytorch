@@ -103,7 +103,8 @@ test_dataloader = DataLoader(test_data, batch_size=10, shuffle=False)
 
 
 
-net=Unet()
+#net=Unet()
+net=PathoNet()
 net = net.to(device)
 criterion = nn.MSELoss(reduction='mean')
 
